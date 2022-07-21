@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejemplo_De_Fragment_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="primer_fragment">Este es el diseño de mi primer fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="segundo_fragment">Este es el diseño de mi segundo fragment</string>
+</resources>
