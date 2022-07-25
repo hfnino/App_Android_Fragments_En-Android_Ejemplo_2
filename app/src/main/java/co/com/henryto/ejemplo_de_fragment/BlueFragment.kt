@@ -50,7 +50,7 @@ class BlueFragment : Fragment() {// Un fragment, extiende de la clase superior F
         super.onViewCreated(view, savedInstanceState)
         var btnPlus2: Button = view.findViewById(R.id.btnPlus2)
         btnPlus2.setOnClickListener { listener?.onClickFragmentButton() } //creamos un escucha cuando se
-        //haga clic en el boton btnPlus2 que cuando sucedem se ejecutara el metodo onClickFragmentButton()
+        //haga clic en el boton btnPlus2 que cuando sucede se ejecutara el metodo onClickFragmentButton()
         // de la variable listener. Como la variable listener es de tipo interfaz OnFragmentActionsListener
         // y su metodo abstracto onClickFragmentButton esta implementado en MainActivity, etonces se ejecutara
         // dicho codigo, que para este ejercicio es un Toast (vea el metodo override fun onClickFragmentButton()
